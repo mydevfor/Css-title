@@ -1,8 +1,8 @@
-.hover-button {
+.title {
     position: relative;
 }
 
-.hover-button::after {
+.title::after {
     content: attr(data-title);
     position: absolute;
     top: 50px;
@@ -16,6 +16,6 @@
     transition: opacity 0.3s;
 }
 
-.hover-button:hover::after {
+.title:hover::after {
     opacity: 1;
 }
